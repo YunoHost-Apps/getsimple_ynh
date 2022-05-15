@@ -1,0 +1,50 @@
+{
+    "name": "GetSimple",
+    "id": "getsimple",
+    "packaging_format": 1,
+    "description": {
+        "en": "Flatfile CMS that works fast and efficient",
+        "fr": "Flatfile CMS that works fast and efficient"
+    },
+    "version": "3.3.16~ynh1",
+    "url": "http://get-simple.info/",
+    "upstream": {
+        "license": "GPL-3.0",
+        "website": "http://get-simple.info/",
+        "demo": "https://demo.example.com",
+        "admindoc": "http://get-simple.info/wiki/fr:start",
+        "code": "https://github.com/GetSimpleCMS/GetSimpleCMS"
+    },
+    "license": "GPL-3.0",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.4-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/getsimple",
+                "default": "/getsimple"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}

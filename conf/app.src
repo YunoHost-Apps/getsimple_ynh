@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/GetSimpleCMS/GetSimpleCMS/archive/refs/tags/v3.3.16.tar.gz
+SOURCE_SUM=2c012c0346ba8088f7ccec809653b177a43de6d87c6f1c826d26df3956a84fb0
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
