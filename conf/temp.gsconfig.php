@@ -71,7 +71,7 @@ define('GSDONOTPING', 1);
 	
 # Set PHP locale
 # http://php.net/manual/en/function.setlocale.php
-etlocale(LC_ALL, 'en_US');
+etlocale(LC_ALL, '__LANGUAGE__');
 
 # Define default timezone of server, accepts php timezone string
 # valid timeszones can be found here http://www.php.net/manual/en/timezones.php
