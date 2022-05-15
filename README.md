@@ -32,7 +32,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ## Screenshots
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/screenshot_editpage.png)
 
 ## Disclaimers / important information
 

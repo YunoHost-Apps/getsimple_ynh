@@ -28,7 +28,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ## Captures d'écran
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/screenshot_editpage.png)
 
 ## Avertissements / informations importantes
 
