@@ -1,0 +1,95 @@
+/*! 
+* Theme's Stylesheet - Modify/Add your own stylesheet + Your Copyright 
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic);
+
+body,input,select,textarea {
+	color:#6e6e6e;
+	font-family:'Roboto',sans-serif;
+	font-size:16px;
+	font-weight:300;
+	line-height: 1.6;
+}
+
+.container {
+	padding: 50px 0 50px;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+}
+
+nav ul ul li a {
+	text-transform: capitalize;
+}
+
+footer .container {
+	padding: 20px 0 20px;
+}
+
+footer {
+	background-color:#222;
+	color:#999;
+	padding:50px 0;
+	font-size:15px;
+}
+footer hr {
+	border-top:1px solid #444;
+}
+footer a, footer a:active, footer a:focus{
+	color:#fff;
+}
+
+/* Tidying Logo and mobile menu behaviour */
+
+header a.logo {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 60px;
+}
+
+.header-wrapper header .logo {
+	font-size:17px;
+	float:left;
+	line-height:57px;
+	letter-spacing:1px;
+	color:#333;
+}
+
+@media (max-width: 992px){
+	.js .nav-collapse {
+		width: 300px;
+		float: right;
+}}
+
+
+/*Making the 'stickybody' work'*/
+
+body.stickybody {
+	margin-top:0;
+}
+
+.header-wrapper.sticky {
+	position:fixed;
+	border-bottom:1px solid #eee;
+	top:0;
+}
+
+
+/*Making the Footer 'sticky'*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 250px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+}

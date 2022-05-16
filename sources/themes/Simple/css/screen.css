@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+ @media all
+{
+ *{outline:none;}
+a{  -o-transition:.25s;
+  -ms-transition:.25s;
+  -moz-transition:.25s;
+  -webkit-transition:.25s;
+  /* ...and now for the proper property */
+  transition:.25s;}
+body{
+	-moz-osx-font-smoothing: grayscale;margin:3%;color:#333333;background-color:#f9f9f9;font-family: 'Source Sans Pro', sans-serif;font-size:13px;line-height:150%;overflow-y:scroll;}
+.layout{background-color:#ffffff;width:100%;max-width:450px;border:1px solid rgba(90,90,90,0.25)}
+.menu{border-top:1px solid rgba(90,90,90,0.25);border-bottom:1px solid rgba(90,90,90,0.25);padding:6px;font-size:14px;}
+.menu ul{margin:0px;padding:0px;}
+.menu li{display:inline;margin-right:6px;list-style-type:none}
+.menu a:link,.menu a:visited{color:rgba(90,90,90,0.725);text-decoration:none;}
+li.current a:link, li.current a:visited{color:rgba(90,90,90,1);text-decoration:none;}
+.menu a:hover{color:rgba(90,90,90,1);text-decoration:none;}
+}
+@media only print
+{
+.menu{display:none}
+.header{border-bottom:1px solid rgba(90,90,90,0.25);}
+.content a:link,.content a:visited{color:1px solid rgba(90,90,90,1);text-decoration:none;border-bottom:none;}
+}

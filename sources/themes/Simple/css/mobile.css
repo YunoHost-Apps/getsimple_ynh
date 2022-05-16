@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+@media all
+{
+  *{outline:none;}
+a{  -o-transition:.25s;
+  -ms-transition:.25s;
+  -moz-transition:.25s;
+  -webkit-transition:.25s;
+  /* ...and now for the proper property */
+  transition:.25s;}
+.menu{border-top:1px solid rgba(90,90,90,0.25);}
+.menu ul{margin:0px;padding:0px;font-size:14px;}
+.menu li{border-bottom:1px solid rgba(90,90,90,0.25);display:block;margin-bottom:0px;list-style-type:none;padding:6px;}
+.menu a:link,.menu a:visited{color:rgba(90,90,90,0.725);text-decoration:none;width:100%;max-width:100%;display:block;}
+.menu a:hover{color:rgba(90,90,90,1);text-decoration:none;width:100%;max-width:100%;width:100%;max-width:100%;display:block}
+.topmenu a:link,.topmenu a:visited{color:rgba(90,90,90,0.725);text-decoration:none}
+.topmenu a:hover{color:color:rgba(90,90,90,1);text-decoration:none}
+li.current a:link, li.current a:visited{color:color:rgba(90,90,90,1);text-decoration:none;width:100%;max-width:100%;display:block}
+.toggle-content{display:none;padding:0px;}
+}
+@media screen and (max-width:400px)
+{
+body{-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;margin:3%;color:#333333;background-color:#f9f9f9;font-family: 'Source Sans Pro', sans-serif;font-size:13px;line-height:150%;overflow-y:scroll;
+}
+.layout{background-color:#ffffff;width:100%;max-width:100%;border:1px solid rgba(90,90,90,0.25)}
+}
+@media screen and (min-width:400px)
+{
+body{-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;margin:3%;color:#333333;background-color:#f9f9f9;font-family: 'Source Sans Pro', sans-serif;font-size:13px;line-height:150%;overflow-y:scroll;
+
+	}
+.layout{background-color:#ffffff;width:100%;max-width:435px;border:1px solid rgba(90,90,90,0.25)}
+}
