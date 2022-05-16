@@ -46,6 +46,16 @@
                 "default": true
             },
             {
+                "name": "language",
+                "type": "string",
+                "ask": {
+                    "en": "Choose the application language",
+                    "fr": "Choisissez la langue de l'application"
+                },
+                "choices": ["de_DE", "fr_FR", "en_US", "nl_NL"],
+                "default": "fr_FR"
+            },
+            {
                 "name": "admin",
                 "type": "user"
             },

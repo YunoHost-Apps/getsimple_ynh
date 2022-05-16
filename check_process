@@ -3,8 +3,9 @@
 		domain="domain.tld"
 		path="/path/admin"
 		is_public=1
-		language="en_US"
+		language="fr_FR"
 		admin="john"
+		sitename="YunoHost"
 		password="1Strong-Password"
 	; Checks
 		pkg_linter=1
