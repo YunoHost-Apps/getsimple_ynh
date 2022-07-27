@@ -61,7 +61,7 @@ define('GSDONOTPING', 1);
 #define('GSEDITOROPTIONS', '');
 
 # Set email from address
-#define('GSFROMEMAIL', 'noreply@get-simple.info');
+#define('GSFROMEMAIL', 'noreply@__DOMAIN__');
 
 # Autosave within edit.php. Value is the autosave interval in seconds
 #define('GSAUTOSAVE', 900);
@@ -71,7 +71,7 @@ define('GSDONOTPING', 1);
 	
 # Set PHP locale
 # http://php.net/manual/en/function.setlocale.php
-etlocale(LC_ALL, '__LANGUAGE__');
+setlocale(LC_ALL, '__LANGUAGE__');
 
 # Define default timezone of server, accepts php timezone string
 # valid timeszones can be found here http://www.php.net/manual/en/timezones.php

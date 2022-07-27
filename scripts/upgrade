@@ -24,6 +24,7 @@ final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 #=================================================
 # CHECK VERSION
 #=================================================
+ynh_script_progression --message="Checking version..."
 
 upgrade_type=$(ynh_check_app_version_changed)
 
@@ -66,14 +67,6 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=1
-
-# Create a dedicated NGINX config
-ynh_add_nginx_config
-
-#=================================================
 # UPGRADE DEPENDENCIES
 #=================================================
 ynh_script_progression --message="Upgrading dependencies..." --weight=6
@@ -88,6 +81,25 @@ ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=1
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config
 
+#=================================================
+# NGINX CONFIGURATION
+#=================================================
+ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=1
+
+# Create a dedicated NGINX config
+ynh_add_nginx_config
+
+#=================================================
+# SPECIFIC UPGRADE
+#=================================================
+# UPDATE A CONFIG FILE
+#=================================================
+ynh_script_progression --message="Updating a configuration file..."
+
+ynh_add_config --template="../conf/temp.gsconfig.php" --destination="$final_path/temp.gsconfig.php"
+
+#=================================================
+# GENERIC FINALIZATION
 #=================================================
 # RELOAD NGINX
 #=================================================
