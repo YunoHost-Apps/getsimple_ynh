@@ -27,7 +27,7 @@ ynh_abort_if_errors
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
 is_public=$YNH_APP_ARG_IS_PUBLIC
-language=en_US
+language=$YNH_APP_ARG_LANGUAGE
 timezone="$(cat /etc/timezone)"
 phpversion=$YNH_PHP_VERSION
 
@@ -102,12 +102,12 @@ ynh_add_fpm_config
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-# ynh_script_progression --message="Adding a configuration file..." --weight=1
+ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-# ynh_add_config --template="../conf/temp.gsconfig.php" --destination="$final_path/gsconfig.php"
+ynh_add_config --template="../conf/temp.gsconfig.php" --destination="$final_path/temp.gsconfig.php"
 
-# chmod 655 "$final_path/gsconfig.php"
-# chown $app:$app "$final_path/gsconfig.php"
+# chmod 655 "$final_path/temp.gsconfig.php"
+# chown $app:$app "$final_path/temp.gsconfig.php"
 
 #=================================================
 # SETUP SSOWAT
