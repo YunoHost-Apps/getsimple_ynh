@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # GetSimple for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Working status](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)  
 [![Install GetSimple with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -26,13 +26,13 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 - Simple Theme Customization
 - Designed For the Small-Site Market
 
-**Shipped version:** 3.3.16~ynh1
+**Shipped version:** 3.3.16~ynh2
 
 **Demo:** https://demo.example.com
 
 ## Screenshots
 
-![](./doc/screenshots/screenshot_editpage.png)
+![Screenshot of GetSimple](./doc/screenshots/screenshot_editpage.png)
 
 ## Disclaimers / important information
 
@@ -40,21 +40,22 @@ From a web browser, navigate to the folder where you just uploaded GetSimple to.
 
 ## Documentation and resources
 
-* Official app website: http://get-simple.info/
-* Official admin documentation: http://get-simple.info/wiki/fr:start
-* Upstream app code repository: https://github.com/GetSimpleCMS/GetSimpleCMS
-* YunoHost documentation for this app: https://yunohost.org/app_getsimple
-* Report a bug: https://github.com/YunoHost-Apps/getsimple_ynh/issues
+* Official app website: <http://get-simple.info>
+* Official admin documentation: <http://get-simple.info/wiki/fr:start>
+* Upstream app code repository: <https://github.com/GetSimpleCMS/GetSimpleCMS>
+* YunoHost documentation for this app: <https://yunohost.org/app_getsimple>
+* Report a bug: <https://github.com/YunoHost-Apps/getsimple_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/getsimple_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/getsimple_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade getsimple -u https://github.com/YunoHost-Apps/getsimple_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
