@@ -6,11 +6,11 @@
         "en": "Flatfile CMS that works fast and efficient",
         "fr": "Flatfile CMS that works fast and efficient"
     },
-    "version": "3.3.16~ynh1",
-    "url": "http://get-simple.info/",
+    "version": "3.3.16~ynh2",
+    "url": "http://get-simple.info",
     "upstream": {
         "license": "GPL-3.0",
-        "website": "http://get-simple.info/",
+        "website": "http://get-simple.info",
         "demo": "https://demo.example.com",
         "admindoc": "http://get-simple.info/wiki/fr:start",
         "code": "https://github.com/GetSimpleCMS/GetSimpleCMS"
@@ -26,10 +26,10 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "php7.4-fpm"
+        "php7.3-fpm"
     ],
     "arguments": {
-        "install" : [
+        "install": [
             {
                 "name": "domain",
                 "type": "domain"
@@ -44,6 +44,29 @@
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
+            },
+            {
+                "name": "language",
+                "type": "string",
+                "ask": {
+                    "en": "Choose the application language",
+                    "fr": "Choisissez la langue de l'application"
+                },
+                "choices": [
+                    "de_DE",
+                    "en_US",
+                    "fr_FR",
+                    "nl_NL"
+                ],
+                "default": "fr_FR"
+            },
+            {
+                "name": "admin",
+                "type": "user"
+            },
+            {
+                "name": "password",
+                "type": "password"
             }
         ]
     }
