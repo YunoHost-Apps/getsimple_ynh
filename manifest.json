@@ -13,7 +13,8 @@
         "website": "http://get-simple.info",
         "demo": "https://demo.example.com",
         "admindoc": "http://get-simple.info/wiki/fr:start",
-        "code": "https://github.com/GetSimpleCMS/GetSimpleCMS"
+        "code": "https://github.com/GetSimpleCMS/GetSimpleCMS",
+        "cpe": "cpe:2.3:a:get-simple:getsimple_cms"
     },
     "license": "GPL-3.0",
     "maintainer": {
