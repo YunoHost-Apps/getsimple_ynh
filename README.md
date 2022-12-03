@@ -28,8 +28,6 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 **Shipped version:** 3.3.16~ynh2
 
-**Demo:** https://demo.example.com
-
 ## Screenshots
 
 ![Screenshot of GetSimple](./doc/screenshots/screenshot_editpage.png)
