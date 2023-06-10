@@ -1,0 +1,1 @@
+From a web browser, navigate to the folder where you just uploaded GetSimple to. You will need to navigate to the admin subdirectory `/admin`. This will redirect you to an install screen. (e.g `__DOMAIN____PATH__/admin`) 
