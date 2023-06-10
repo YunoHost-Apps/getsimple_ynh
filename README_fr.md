@@ -33,10 +33,6 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ![Capture d’écran de GetSimple](./doc/screenshots/screenshot_editpage.png)
 
-## Avertissements / informations importantes
-
-From a web browser, navigate to the folder where you just uploaded GetSimple to. You will need to navigate to the admin subdirectory `/admin`. This will redirect you to an install screen. (e.g `mydomain.tld/admin` or `mydomain.tld/path-to-get-simple/admin`) 
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <http://get-simple.info>
