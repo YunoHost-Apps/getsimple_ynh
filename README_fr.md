@@ -33,11 +33,6 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ![Capture d’écran de GetSimple](./doc/screenshots/screenshot_editpage.png)
 
-## Avertissements / informations importantes
-
-
-![Capture d’écran de GetSimple](./doc/screenshots/screenshot_editpage.png)
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <http://get-simple.info>
