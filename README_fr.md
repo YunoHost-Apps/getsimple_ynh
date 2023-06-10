@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # GetSimple pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
+
 [![Installer GetSimple avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer GetSimple rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer GetSimple rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 GetSimple is an XML based, stand-alone, fully independent and lite Content Management System. To go along with its best-in-class user interface, we have loaded it with features that every website needs, but with nothing it doesn't. GetSimple is truly the simplest way to manage a small-business website.
 
@@ -28,9 +29,9 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 **Version incluse :** 3.3.16~ynh2
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de GetSimple](./doc/screenshots/screenshot_editpage.png)
+![Capture d’écran de GetSimple](./doc/screenshots/screenshot_editpage.png)
 
 ## Avertissements / informations importantes
 
@@ -38,9 +39,9 @@ From a web browser, navigate to the folder where you just uploaded GetSimple to.
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <http://get-simple.info>
-* Documentation officielle de l'admin : <http://get-simple.info/wiki/fr:start>
-* Dépôt de code officiel de l'app : <https://github.com/GetSimpleCMS/GetSimpleCMS>
+* Site officiel de l’app : <http://get-simple.info>
+* Documentation officielle de l’admin : <http://get-simple.info/wiki/fr:start>
+* Dépôt de code officiel de l’app : <https://github.com/GetSimpleCMS/GetSimpleCMS>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_getsimple>
 * Signaler un bug : <https://github.com/YunoHost-Apps/getsimple_ynh/issues>
 
@@ -56,4 +57,4 @@ ou
 sudo yunohost app upgrade getsimple -u https://github.com/YunoHost-Apps/getsimple_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
