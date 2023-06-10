@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # GetSimple for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Working status](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Working status](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
+
 [![Install GetSimple with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
 *[Lire ce readme en français.](./README_fr.md)*
