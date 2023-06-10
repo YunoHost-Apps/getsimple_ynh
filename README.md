@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # GetSimple for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Working status](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Working status](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
+
 [![Install GetSimple with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -26,15 +27,11 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 - Simple Theme Customization
 - Designed For the Small-Site Market
 
-**Shipped version:** 3.3.16~ynh2
+**Shipped version:** 3.3.16~ynh3
 
 ## Screenshots
 
 ![Screenshot of GetSimple](./doc/screenshots/screenshot_editpage.png)
-
-## Disclaimers / important information
-
-From a web browser, navigate to the folder where you just uploaded GetSimple to. You will need to navigate to the admin subdirectory `/admin`. This will redirect you to an install screen. (e.g `mydomain.tld/admin` or `mydomain.tld/path-to-get-simple/admin`) 
 
 ## Documentation and resources
 
