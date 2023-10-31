@@ -38,7 +38,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 * Site officiel de l’app : <http://get-simple.info>
 * Documentation officielle de l’admin : <http://get-simple.info/wiki/fr:start>
 * Dépôt de code officiel de l’app : <https://github.com/GetSimpleCMS/GetSimpleCMS>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_getsimple>
+* YunoHost Store: <https://apps.yunohost.org/app/getsimple>
 * Signaler un bug : <https://github.com/YunoHost-Apps/getsimple_ynh/issues>
 
 ## Informations pour les développeurs
