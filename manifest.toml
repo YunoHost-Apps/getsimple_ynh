@@ -54,7 +54,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/GetSimpleCMS/GetSimpleCMS/archive/refs/tags/v3.3.16.tar.gz"
         sha256 = "2c012c0346ba8088f7ccec809653b177a43de6d87c6f1c826d26df3956a84fb0"
-
+        autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
