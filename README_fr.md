@@ -33,6 +33,10 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ![Capture d’écran de GetSimple](./doc/screenshots/screenshot_editpage.png)
 
+## :red_circle: Anti-fonctionnalités
+
+- **Application non maintenue **: Ce logiciel n'est plus maintenu. Attendez-vous à ce qu'il ne fonctionne plus avec le temps, et que l'on découvre des failles de sécurité qui ne seront pas corrigées, etc.
+
 ## Documentations et ressources
 
 - Site officiel de l’app : <http://get-simple.info>
