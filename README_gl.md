@@ -27,7 +27,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 - Simple Theme Customization
 - Designed For the Small-Site Market
 
-**Versión proporcionada:** 3.3.16~ynh3
+**Versión proporcionada:** 3.3.16~ynh4
 
 ## Capturas de pantalla
 
