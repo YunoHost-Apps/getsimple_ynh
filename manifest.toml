@@ -16,7 +16,7 @@ admindoc = "http://get-simple.info/wiki/fr:start"
 code = "https://github.com/GetSimpleCMS/GetSimpleCMS"
 
 [integration]
-yunohost = ">= 11.1.20"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
