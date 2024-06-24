@@ -5,7 +5,7 @@ name = "GetSimple"
 description.en = "Flatfile CMS that works fast and efficient"
 description.fr = "Flatfile CMS that works fast and efficient"
 
-version = "3.3.16~ynh3"
+version = "3.3.16~ynh4"
 
 maintainers = []
 
