@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 GetSimple
+# YunoHost 上的 GetSimple
 
 [![集成程度](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![工作状态](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
 
@@ -32,6 +32,10 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 ## 截图
 
 ![GetSimple 的截图](./doc/screenshots/screenshot_editpage.png)
+
+## :red_circle: 负面特征
+
+- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
 
 ## 文档与资源
 

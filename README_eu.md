@@ -33,6 +33,10 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ![GetSimple(r)en pantaila-argazkia](./doc/screenshots/screenshot_editpage.png)
 
+## :red_circle: Ezaugarri zalantzagarriak
+
+- **Jatorrizko garapena utzita**: Software honek ez du arduradunik. Denborak aurrera egin ahala funtzionatzeari utziko dio, konpondu gabeko segurtasun arazoak izango ditu, etab.
+
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <http://get-simple.info>
