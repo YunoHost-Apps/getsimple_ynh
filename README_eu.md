@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # GetSimple YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/getsimple.svg)](https://ci-apps.yunohost.org/ci/apps/getsimple/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
 
 [![Instalatu GetSimple YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
@@ -27,7 +27,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 - Simple Theme Customization
 - Designed For the Small-Site Market
 
-**Paketatutako bertsioa:** 3.3.16~ynh4
+**Paketatutako bertsioa:** 3.3.16~ynh5
 
 ## Pantaila-argazkiak
 

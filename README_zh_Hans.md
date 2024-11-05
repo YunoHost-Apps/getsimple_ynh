@@ -5,7 +5,7 @@
 
 # YunoHost 上的 GetSimple
 
-[![集成程度](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![工作状态](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/getsimple.svg)](https://ci-apps.yunohost.org/ci/apps/getsimple/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
 
 [![使用 YunoHost 安装 GetSimple](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
@@ -27,7 +27,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 - Simple Theme Customization
 - Designed For the Small-Site Market
 
-**分发版本：** 3.3.16~ynh4
+**分发版本：** 3.3.16~ynh5
 
 ## 截图
 

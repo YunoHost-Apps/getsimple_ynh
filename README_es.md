@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # GetSimple para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/getsimple.svg)](https://dash.yunohost.org/appci/app/getsimple) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/getsimple.svg)](https://ci-apps.yunohost.org/ci/apps/getsimple/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/getsimple.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/getsimple.maintain.svg)
 
 [![Instalar GetSimple con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=getsimple)
 
@@ -27,7 +27,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 - Simple Theme Customization
 - Designed For the Small-Site Market
 
-**Versión actual:** 3.3.16~ynh4
+**Versión actual:** 3.3.16~ynh5
 
 ## Capturas
 
@@ -47,7 +47,7 @@ GetSimple is an XML based, stand-alone, fully independent and lite Content Manag
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/getsimple_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/getsimple_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
